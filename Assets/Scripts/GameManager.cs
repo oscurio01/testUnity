@@ -2,12 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
-
-#if _DEBUG_AVAILABLE__
-
 using UnityEditor;
 
-#endif
 
 public class GameManager : MonoBehaviour
 {

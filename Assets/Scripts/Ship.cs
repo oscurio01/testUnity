@@ -30,7 +30,7 @@ public class Ship : MonoBehaviour
     void FixedUpdate()
     {
         if (gameManagerC.IsShowingDialog()) return;
-#if _DEBUG_AVAILABLE__
+
 
         if(Switches.debugMode && Switches.debugTurboMode)
         {
@@ -66,7 +66,7 @@ public class Ship : MonoBehaviour
                 speed = debubPreviousSpeed;
             }
         }
-#endif      
+     
         
     }
 }
